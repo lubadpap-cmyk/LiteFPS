@@ -40,7 +40,7 @@ A lightweight, unobtrusive FPS overlay that provides real-time performance monit
 1. **Clone the repository**:
 ```bash
 git clone https://github.com/lubadpap-cmyk/LiteFPS.git
-cd fps-monitor
+cd LiteFPS
 ```
 
 2. **Install dependencies**:
