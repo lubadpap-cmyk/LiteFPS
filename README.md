@@ -1,26 +1,22 @@
-# 🚀 Modern FPS & System Monitor
+# ⚡ LiteFPS
 
-A sleek, lightweight, and highly customizable FPS and system resource monitor built with Python and PyQt5. Designed for gamers and power users who want a beautiful overlay without the bloat.
+An ultra-lightweight, zero-lag performance overlay for Windows. Built with Python and PyQt5, designed to stay out of your way while giving you the most critical system stats in real-time.
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![PyQt5](https://img.shields.io/badge/UI-PyQt5-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Performance](https://img.shields.io/badge/Performance-Ultra--Lite-orange.svg)
 
-## ✨ Features
+## 🚀 Key Features
 
--   **📊 Dynamic Smooth Graph**: Real-time FPS history visualized with a beautiful anti-aliased area chart and gradient fills.
--   **🖥️ System Stats**: Live monitoring of CPU and RAM utilization.
--   **📈 Performance Metrics**: Track your **Average** and **Maximum** FPS at a glance.
--   **👻 Ghost Mode**: Toggle "click-through" functionality so the overlay never interferes with your gaming sessions.
--   **💾 Persistence**: Automatically saves your preferred window position and transparency level between restarts.
--   **🎨 Premium Aesthetics**:
-    *   Frameless, semi-transparent window with rounded corners.
-    *   Adaptive coloring (Green 🟢 / Yellow 🟡 / Red 🔴) based on FPS performance.
-    *   Modern typography using Segoe UI Black.
--   **⚙️ Quick Controls**:
-    *   **Drag**: Left-click and move to reposition.
-    *   **Transparency**: Scroll your mouse wheel to adjust opacity (10% - 95%).
-    *   **Tray Menu**: Full control via the system tray icon, including "Reset Position" and "Exit".
+-   **⚡ Zero-Lag Dragging**: Optimized window handling allows you to move the overlay anywhere on your screen with zero stutter.
+-   **🧵 Multithreaded Monitoring**: Hardware polling (GPU) runs in a background thread, ensuring the UI remains perfectly responsive even when the system is under heavy load.
+-   **📊 Intelligent Performance Model**: Provides a numerical "Estimated FPS" value based on real-time CPU and GPU utilization.
+-   **🖱️ Full-Area Drag**: Click anywhere on the widget to reposition it instantly.
+-   **💾 Auto-Save**: Automatically remembers its last position on your desktop.
+-   **🎨 Minimalist Aesthetic**:
+    *   Pure numeric display with dynamic coloring (Green 🟢 / Yellow 🟡 / Red 🔴).
+    *   Ultra-low resource footprint (CPU/RAM).
+    *   Borderless, distraction-free design.
 
 ## 🛠️ Installation
 
@@ -40,15 +36,14 @@ A sleek, lightweight, and highly customizable FPS and system resource monitor bu
     python fps_monitor.py
     ```
 
-## 🎮 Usage
+## 🎮 Controls
 
--   **Move it**: Click and drag anywhere on the widget.
--   **Adjust Opacity**: Hover over the widget and use your **Mouse Wheel**.
--   **Ghost Mode**: Right-click the system tray icon and select **"Вкл/Выкл режим призрака"**. In this mode, the window becomes semi-transparent and ignores all mouse inputs, allowing you to click through it into your game.
--   **Reset**: If the window goes off-screen, use **"Сбросить позицию"** from the tray menu.
+-   **Move**: Left-click and drag **anywhere** on the overlay.
+-   **Exit**: Right-click the system tray icon (next to the clock) and select **"Exit"**.
 
 ## 📦 Requirements
 
+-   Windows 10/11
 -   Python 3.7+
 -   PyQt5
 -   psutil
