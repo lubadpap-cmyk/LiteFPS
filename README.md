@@ -26,8 +26,8 @@ A sleek, lightweight, and highly customizable FPS and system resource monitor bu
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/fps-monitor.git
-    cd fps-monitor
+    git clone https://github.com/lubadpap-cmyk/Litefps.git
+    cd Litefps
     ```
 
 2.  **Install dependencies**:
